@@ -1,0 +1,11 @@
+.settingsContainer input[type=text]  {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.settingsContainer select {
+    margin-bottom: 8px;
+  }
+  .settingsContainer i{
+    height: 2rem;
+  }

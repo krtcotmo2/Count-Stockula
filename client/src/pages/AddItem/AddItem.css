@@ -1,0 +1,47 @@
+.scanText {
+     font-size: 14pt;
+     width:100%;
+	align-self:center;
+    color: white;
+    text-align: center;
+}
+
+.scanBreak {
+    line-height: 30px;
+}
+
+
+.addItem.centralContent{
+     margin: 0 auto !important;
+     border-radius: 7px;
+     padding:24px !important;
+     width:500px !important;
+     display: flex;
+     text-align: left;
+}
+@media only screen and (max-width: 601px){    
+     .addItem.centralContent{width:calc(100% - 72px) !important;}
+}
+.modal{
+     width:400px;
+     margin-top:30px;
+     border:1px solid #B71C1C;
+     max-width: 75%;
+}
+.modal .modal-footer{
+     text-align: center;
+     border-top:1px solid #6a6a6a;
+}
+.modal .modal-footer button{
+     background:black;
+     color:white;
+}
+.modal .modal-footer button:hover{
+     background:#B71C1C;
+}
+.modalOpen{
+     display: block;
+}
+.modal .modal-footer .btn-flat{
+     margin:6px;
+}

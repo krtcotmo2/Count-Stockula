@@ -1,0 +1,14 @@
+/* SignUp.css */
+.logoContainer {
+    padding: 75px;
+}
+
+.signUpButton {
+    padding: 20px;
+}
+
+select {
+    height: 29px !important;
+    margin-bottom: 8px;
+}
+

@@ -1,0 +1,12 @@
+button.tab  {
+    background:black;
+    color:white;
+    font-weight: bold;
+    opacity: 1;
+}
+
+button.tab.selected  {
+     background:#d32f2f;
+     color:white;
+     font-weight: bold;
+}

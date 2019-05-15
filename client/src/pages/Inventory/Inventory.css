@@ -1,0 +1,24 @@
+
+.scanText {
+     font-size: 14pt;
+     width:100%;
+	align-self:center;
+    color: white;
+    text-align: center;
+}
+
+.scanBreak {
+    line-height: 30px;
+}
+
+.inv.centralContent{
+     margin: 0 auto !important;
+     border-radius: 7px;
+     padding:24px !important;
+     width:500px !important;
+     display: flex;
+     text-align: left;
+}
+@media only screen and (max-width: 601px){    
+     .inv.centralContent{width:calc(100% - 72px) !important;}
+}
