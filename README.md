@@ -1,4 +1,4 @@
-# Count-Stockula
+# [Count-Stockula](https://count-stockula.herokuapp.com/)
 ![alt text](https://img.shields.io/badge/uses-Node-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-Mongoose-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-Express-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-Axios-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-Nodemailer-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-Twilio-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-bcrypt-brightgreen.svg) ![alt text](https://img.shields.io/badge/uses-Json_Web_Token-brightgreen.svg) 
 
 ![alt text](https://img.shields.io/badge/uses-React-blue.svg)  ![alt text](https://img.shields.io/badge/uses-Materialize-blue.svg) ![alt text](https://img.shields.io/badge/uses-pdfMake-blue.svg) ![alt text](https://img.shields.io/badge/uses-ReactBarcodeReader-blue.svg) 
