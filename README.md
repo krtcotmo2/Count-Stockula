@@ -8,8 +8,17 @@
 Small business experience difficulties keeping up with inventory levels. The POS systems can keep track of what is sold but puts the onus of inventory level on the manger. This can be a manual process.
 
 ### How we built it (this was a team effort)
+The database used in this project is MongoDB. Before you can run a downloaded copy you will need to create the collections using the seedDB.js file in the scripts folder at the root level.
+```
+cd scripts 
+node seedDB.js
+```
 
+While having a hand held scanner is a definite advantage (we used a Motorola DS6878 ), the application can be run without the scanner. Instead of scanning upc’s the user will need to click on the text in the red fields and then enter in the upc numbers manually. The events for scanning an item are handled through the ReactBarCodeReader package.
 
+Materialize components and css help shape the look and feel while React is used for the frontend scaffolding and interactivity. The application is intended to be run off a desktop while scanning but the responsive design will resize and reformat for a mobile device. The mobile device view was intended for the inventory manager to use at any location to view inventory levels for multiple stores. 
+
+Other packages were used for secondary functions within the application. PDFMake is used for creating the receipts from the actual sales process and could easily also generate reports for sales data across stores. Nodemailer sends a copy of the receipt to a specified address. Twillio allows the system to text the manager when inventory levels are low.
 
 ### Solution
 Count Stockula links the scanning of objects into an inventory system that will inform and keep the owners connected to inventory, even across multiple stores. Users login the system using an encrypted username and password. Each time scanned into the application it will reduce the inventory from the specific store. The user can manually enter in a upc, use a quick click dashboard to add common items or items that traditionally have upc code, such as produce. The user closes out the order by entering in as email address and a pdf receipt is generated and mailed out. 
