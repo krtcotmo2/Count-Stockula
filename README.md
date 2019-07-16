@@ -4,7 +4,7 @@
 ![alt text](https://img.shields.io/badge/uses-React-blue.svg)  ![alt text](https://img.shields.io/badge/uses-Materialize-blue.svg) ![alt text](https://img.shields.io/badge/uses-pdfMake-blue.svg) ![alt text](https://img.shields.io/badge/uses-ReactBarcodeReader-blue.svg) 
 
 ### Problem
-<img align="right" src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/inventory.png" width="250"> 
+[<img align="right" src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/inventory.png" width="250">](https://count-stockula.herokuapp.com/)
 
 Small business experience difficulties keeping up with inventory levels. The POS systems can keep track of what is sold but puts the onus of inventory level on the manger. This can be a manual process.
 
@@ -37,4 +37,4 @@ The user can scan in a upc number. If the item is not in the store’s inventory
 
 The user can scan in a upc number. If the item exists in the store’s inventory, the user is prevented from duplicating the upc. Users can also add inventory to non scannable items by manually entering in a upc number. The upc is prepopulated and the user can add in the item description.
 
-<img src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/increaseInventory.png">   <img src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/newItem.png"> <img src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/sellItem.png">
+[<img src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/increaseInventory.png">](https://count-stockula.herokuapp.com/)   [<img src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/newItem.png">](https://count-stockula.herokuapp.com/) [<img src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/sellItem.png">](https://count-stockula.herokuapp.com/)
