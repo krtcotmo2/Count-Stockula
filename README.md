@@ -24,6 +24,7 @@ Other packages were used for secondary functions within the application. PDFMake
 Count Stockula links the scanning of objects into an inventory system that will inform and keep the owners connected to inventory, even across multiple stores. Users login the system using an encrypted username and password. Each time scanned into the application it will reduce the inventory from the specific store. The user can manually enter in a upc, use a quick click dashboard to add common items or items that traditionally have upc code, such as produce. The user closes out the order by entering in as email address and a pdf receipt is generated and mailed out. 
 
 ### Inventory Levels
+<img align="right" src="https://github.com/krtcotmo2/Count-Stockula/blob/master/client/public/images/inventory.png">
 
 Each item in the store has a “critical threshold” level that determines when an item needs to be restocked. Count Stockula will send a text message out to the inventory manager whenever an item’s current inventory level reaches this critical threshold. The system will also send out a text message when the inventory level of any item reaches 0.
 
